@@ -54,4 +54,12 @@ public class CellAutoAssign : EditorWindow
 
         Debug.Log("Auto assigned " + assigned + " cells!");
     }
+
+
+    // Scripts to make
+    // Grid.cs = attach it to Plane1 and Plane2 so each grid has a proper 2D array reference to its 100 cells
+    // GameManager.cs = manages turn order between player and bot
+    // ShipPlacement.cs = lets player place ships before the game starts
+    // BotController.cs = handles the bot's automatic attacks
+
 }
