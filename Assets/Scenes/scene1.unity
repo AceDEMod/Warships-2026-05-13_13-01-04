@@ -25310,6 +25310,7 @@ GameObject:
   - component: {fileID: 1433358753}
   - component: {fileID: 1433358752}
   - component: {fileID: 1433358756}
+  - component: {fileID: 1433358757}
   m_Layer: 0
   m_Name: Plane2
   m_TagString: Untagged
@@ -25433,6 +25434,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109271dc069f3864e86cf2288593b317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Grid
+--- !u!114 &1433358757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433358751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1445e2cf443e9154faad076bed01c554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fleet
 --- !u!1 &1436775746
 GameObject:
   m_ObjectHideFlags: 0
@@ -31980,6 +31993,7 @@ GameObject:
   - component: {fileID: 1847161769}
   - component: {fileID: 1847161768}
   - component: {fileID: 1847161772}
+  - component: {fileID: 1847161773}
   m_Layer: 0
   m_Name: Plane1
   m_TagString: Untagged
@@ -32103,6 +32117,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109271dc069f3864e86cf2288593b317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!114 &1847161773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847161767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1445e2cf443e9154faad076bed01c554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fleet
 --- !u!1 &1852051192
 GameObject:
   m_ObjectHideFlags: 0
