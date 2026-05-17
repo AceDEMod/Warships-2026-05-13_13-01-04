@@ -25,12 +25,13 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        bool hitShip = botGrid.cells[row, col].onClick();
-        if (hitShip)
-        {
-            Ship hitShipLocation = botFleet.getShip(row, col);
+        botGrid.cells[row, col].onClick();
 
-            if (hitShipLocation != null && !hitShipLocation.isShipSunk())
+        Ship hitShipLocation = botFleet.getShip(row, col);
+
+        if (hitShipLocation != null)
+        {
+            if (!hitShipLocation.isShipSunk())
             {
                 hitShipLocation.takeDamage();
             }
@@ -42,7 +43,6 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Player wins!");
                 return;
             }
-
         }
         else
         {
@@ -112,6 +112,7 @@ public class GameManager : MonoBehaviour
         shipPlacement = new ShipPlacement();
         Debug.Log("Placing player ships...");
         shipPlacement.placeShipsRandom(playerGrid, playerFleet);
+        foreach (Ship ship in playerFleet.ships) { ship.markOccupiedCells(); }
         Debug.Log("Placing bot ships...");
         shipPlacement.placeShipsRandom(botGrid, botFleet);
         Debug.Log("Game started! Player's turn.");

@@ -17,6 +17,7 @@ public class ShipPlacement
                 if (canPlaceShip(grid, fleet, randRow, randCol, size, isHorizontal))
                 {
                     Ship newShip = new Ship(size, randRow, randCol, isHorizontal, grid);
+                    newShip.calculateOccupiedCells();
                     fleet.addShip(newShip);
                     placed = true;
                 }

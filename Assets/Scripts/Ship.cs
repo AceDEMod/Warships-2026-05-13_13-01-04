@@ -18,7 +18,6 @@ public class Ship
         startingCol = col;
         isHorizontal = horizontal;
         grid = paramGrid;
-        calculateOccupiedCells();
     }
 
     //returns true if the ship is sunk, false otherwise
@@ -44,19 +43,42 @@ public class Ship
 
     // Calculates occupied cells based on starting position, orientation, and size of the ship in constructor
     public void calculateOccupiedCells(){
+        Debug.Log("Calculating occupied cells for ship size " + size);
         occupiedCells.Clear();
         for (int i = 0; i < size; i++)
         {
             int row = isHorizontal ? startingRow : startingRow + i;
             int col = isHorizontal ? startingCol + i : startingCol;
+            //debugs
+
+            if (grid == null)
+            {
+                Debug.Log("ERROR: Grid is null!");
+                return;
+            }
+            if (grid.cells == null)
+            {
+                Debug.Log("ERROR: Grid.cells is null!");
+                return;
+            }
+
             Cell cell = grid.cells[row, col];
+            if (cell == null)
+            {
+                Debug.Log("ERROR: Cell at (" + row + ", " + col + ") is null!");
+                return;
+            }
+
+            //debugs
+
             occupiedCells.Add(cell);
         }
-        markOccupiedCells();
+        Debug.Log("Ship size " + size + " has " + occupiedCells.Count + " occupied cells");
     }
 
     // Checks if a specific cell is occupied by this ship, used for hit detection
     public bool isCellOccupied(int row, int col) {
+        Debug.Log("Checking if cell (" + row + ", " + col + "), occupied cells count: " + occupiedCells.Count);
         foreach (Cell cell in occupiedCells) {
             if (cell.row == row && cell.col == col) {
                 return true;

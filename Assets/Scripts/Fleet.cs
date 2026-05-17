@@ -12,13 +12,16 @@ public class Fleet : MonoBehaviour
 
     public Ship getShip(int row, int col)
     {
+        Debug.Log("Checking for ship at (" + row + ", " + col + ")");
         foreach (Ship ship in ships)
         {
             if (ship.isCellOccupied(row, col))
             {
+                Debug.Log("Ship found at (" + row + ", " + col + ")");
                 return ship;
             }
         }
+        Debug.Log("No ship at (" + row + ", " + col + ")");
         return null;
     }
 
