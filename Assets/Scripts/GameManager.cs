@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
 
     public bool isPlayerTurn = true;
     public bool gameOver = false;
+    public float botAttackTimer = 0f;
+    public float botAttackDelay = 2f;
+    public string winner = "";
 
     public void playerAttack(int row, int col)
     {
@@ -31,6 +34,7 @@ public class GameManager : MonoBehaviour
 
         if (hitShipLocation != null)
         {
+            botGrid.cells[row, col].rend.material.color = botGrid.cells[row, col].hitColor;
             if (!hitShipLocation.isShipSunk())
             {
                 hitShipLocation.takeDamage();
@@ -40,6 +44,7 @@ public class GameManager : MonoBehaviour
             if (botFleet.checkFleetStatus())
             {
                 gameOver = true;
+                winner = "player";
                 Debug.Log("Player wins!");
                 return;
             }
@@ -48,9 +53,8 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Miss!");
         }
-
+        botAttackTimer = botAttackDelay;
         isPlayerTurn = false;
-        botAttack();
     }
 
     public void botAttack()
@@ -74,18 +78,21 @@ public class GameManager : MonoBehaviour
 
             if (hitShipLocation != null && !hitShipLocation.isShipSunk())
             {
+                target.rend.material.color = target.hitColor;
                 hitShipLocation.takeDamage();
             }
 
             if (playerFleet.checkFleetStatus())
             {
                 gameOver = true;
+                winner = "bot";
                 Debug.Log("Bot wins!");
                 return;
             }
         }
         else
         {
+            target.rend.material.color = target.missColor;
             Debug.Log("Bot missed at (" + row + ", " + col + ")");
         }
         isPlayerTurn = true;
@@ -106,6 +113,47 @@ public class GameManager : MonoBehaviour
         return cell;
     }
 
+    public void RestartGame()
+    {
+        Debug.Log("Restarting game...");
+        isPlayerTurn = true;
+        gameOver = false;
+        winner = "";
+        botAttackTimer = 0f;
+
+        ResetGrid(playerGrid);
+        ResetGrid(botGrid);
+
+        playerFleet.ships.Clear();
+        botFleet.ships.Clear();
+
+        shipPlacement.placeShipsRandom(playerGrid, playerFleet);
+        foreach (Ship ship in playerFleet.ships)
+        {
+            ship.calculateOccupiedCells();
+            ship.markOccupiedCells();
+        }
+
+        shipPlacement.placeShipsRandom(botGrid, botFleet);
+        foreach (Ship ship in botFleet.ships)
+        {
+            ship.calculateOccupiedCells();
+        }
+
+        Debug.Log("Game restarted! Player's turn.");
+    }
+
+    private void ResetGrid(Grid grid)
+    {
+        for (int row = 0; row < 10; row++)
+        {
+            for (int col = 0; col < 10; col++)
+            {
+                grid.cells[row, col].ResetCell();
+            }
+        }
+    }
+
     void Start()
     {
         Debug.Log("Game starting...");
@@ -120,6 +168,13 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-
+        if (botAttackTimer > 0)
+        {
+            botAttackTimer -= Time.deltaTime;
+            if (botAttackTimer <= 0)
+            {
+                botAttack();
+            }
+        }
     }
 }

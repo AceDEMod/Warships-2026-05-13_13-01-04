@@ -252,6 +252,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &16323238
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +386,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &25080037
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +520,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &33341744
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +654,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &36837217
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,6 +788,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &39076633
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1033,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &55009459
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1167,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &57480298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1294,6 +1301,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &63596638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1435,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &72989974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,6 +1646,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &90890375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1886,6 +1896,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &94986050
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,6 +2071,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &111908812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2193,6 +2205,53 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
+--- !u!1 &118425575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 118425577}
+  - component: {fileID: 118425576}
+  m_Layer: 0
+  m_Name: InputHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &118425576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118425575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af2a15043ed86d47ba1a650dcefc7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InputHandler
+  gameManager: {fileID: 1398970842}
+  botGrid: {fileID: 1433358756}
+--- !u!4 &118425577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118425575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.795, y: -0, z: -1.50558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &129524884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2596,6 +2655,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &160828584
 GameObject:
   m_ObjectHideFlags: 0
@@ -2729,6 +2789,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &173779100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,6 +2964,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &180048163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2944,6 +3006,139 @@ Transform:
   - {fileID: 250146650}
   m_Father: {fileID: 1433358755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &190241455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190241456}
+  - component: {fileID: 190241459}
+  - component: {fileID: 190241458}
+  - component: {fileID: 190241457}
+  m_Layer: 5
+  m_Name: Restart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &190241456
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190241455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1152392530}
+  m_Father: {fileID: 2099970469}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -690, y: -265}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &190241457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190241455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 190241458}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1398970842}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &190241458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190241455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &190241459
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190241455}
+  m_CullTransparentMesh: 1
 --- !u!1 &190733127
 GameObject:
   m_ObjectHideFlags: 0
@@ -3077,6 +3272,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &192409671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,6 +3447,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &205226297
 GameObject:
   m_ObjectHideFlags: 0
@@ -3500,6 +3697,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &208713322
 GameObject:
   m_ObjectHideFlags: 0
@@ -3633,6 +3831,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &212114235
 GameObject:
   m_ObjectHideFlags: 0
@@ -3957,6 +4156,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &218943037
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,6 +4290,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &219986574
 GameObject:
   m_ObjectHideFlags: 0
@@ -4223,6 +4424,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &223383747
 GameObject:
   m_ObjectHideFlags: 0
@@ -4356,6 +4558,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &226294873
 GameObject:
   m_ObjectHideFlags: 0
@@ -4489,6 +4692,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &232260061
 GameObject:
   m_ObjectHideFlags: 0
@@ -4861,6 +5065,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &245595290
 GameObject:
   m_ObjectHideFlags: 0
@@ -4994,6 +5199,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &250146649
 GameObject:
   m_ObjectHideFlags: 0
@@ -5127,6 +5333,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &252832422
 GameObject:
   m_ObjectHideFlags: 0
@@ -5260,6 +5467,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &273094801
 GameObject:
   m_ObjectHideFlags: 0
@@ -5768,6 +5976,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &294595773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5901,6 +6110,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &307352836
 GameObject:
   m_ObjectHideFlags: 0
@@ -6034,6 +6244,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &325296192
 GameObject:
   m_ObjectHideFlags: 0
@@ -6167,6 +6378,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1001 &331264285
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6323,6 +6535,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af2a15043ed86d47ba1a650dcefc7ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputHandler
+  gameManager: {fileID: 0}
+  botGrid: {fileID: 0}
 --- !u!1 &332374253
 GameObject:
   m_ObjectHideFlags: 0
@@ -6531,6 +6745,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &342091278
 GameObject:
   m_ObjectHideFlags: 0
@@ -6664,6 +6879,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &357747663
 GameObject:
   m_ObjectHideFlags: 0
@@ -6797,6 +7013,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &360202739
 GameObject:
   m_ObjectHideFlags: 0
@@ -6930,6 +7147,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &367040755
 GameObject:
   m_ObjectHideFlags: 0
@@ -7063,6 +7281,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &372564534
 GameObject:
   m_ObjectHideFlags: 0
@@ -7237,6 +7456,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &425410336
 GameObject:
   m_ObjectHideFlags: 0
@@ -7532,6 +7752,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &433464178
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,6 +7886,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &436358032
 GameObject:
   m_ObjectHideFlags: 0
@@ -8112,6 +8334,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &482333700
 GameObject:
   m_ObjectHideFlags: 0
@@ -8245,6 +8468,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &483833998
 GameObject:
   m_ObjectHideFlags: 0
@@ -8378,6 +8602,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &502852664
 GameObject:
   m_ObjectHideFlags: 0
@@ -8511,6 +8736,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &507132763
 GameObject:
   m_ObjectHideFlags: 0
@@ -8760,6 +8986,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &508187897
 GameObject:
   m_ObjectHideFlags: 0
@@ -8893,6 +9120,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &508700756
 GameObject:
   m_ObjectHideFlags: 0
@@ -9217,6 +9445,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &519773068
 GameObject:
   m_ObjectHideFlags: 0
@@ -9350,6 +9579,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &527018818
 GameObject:
   m_ObjectHideFlags: 0
@@ -9483,6 +9713,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &529364393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7472806774940925298, guid: d6df0df54b7dd4cd9ae7fa880a63e827, type: 3}
@@ -9626,6 +9857,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &537481373
 GameObject:
   m_ObjectHideFlags: 0
@@ -9759,6 +9991,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &544109308
 GameObject:
   m_ObjectHideFlags: 0
@@ -9892,6 +10125,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &546709452
 GameObject:
   m_ObjectHideFlags: 0
@@ -10025,6 +10259,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &553060043
 GameObject:
   m_ObjectHideFlags: 0
@@ -10158,6 +10393,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1001 &561766089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10401,6 +10637,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &595971757
 GameObject:
   m_ObjectHideFlags: 0
@@ -10569,6 +10806,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &600295244
 GameObject:
   m_ObjectHideFlags: 0
@@ -10702,6 +10940,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &611557184
 GameObject:
   m_ObjectHideFlags: 0
@@ -10876,6 +11115,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &619849336
 GameObject:
   m_ObjectHideFlags: 0
@@ -11009,6 +11249,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &637151521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5963138107579739024, guid: 02644bbd28622410a84cf154fc436b8a, type: 3}
@@ -11227,6 +11468,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &674940105
 GameObject:
   m_ObjectHideFlags: 0
@@ -11360,6 +11602,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &682883803
 GameObject:
   m_ObjectHideFlags: 0
@@ -11493,6 +11736,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &685665206
 GameObject:
   m_ObjectHideFlags: 0
@@ -11626,6 +11870,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &690328644
 GameObject:
   m_ObjectHideFlags: 0
@@ -11894,6 +12139,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &715188568
 GameObject:
   m_ObjectHideFlags: 0
@@ -12027,6 +12273,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &717440024
 GameObject:
   m_ObjectHideFlags: 0
@@ -12310,6 +12557,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &757685094
 GameObject:
   m_ObjectHideFlags: 0
@@ -12443,6 +12691,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &760104279
 GameObject:
   m_ObjectHideFlags: 0
@@ -12576,6 +12825,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &761564793
 GameObject:
   m_ObjectHideFlags: 0
@@ -12709,6 +12959,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &771543126
 GameObject:
   m_ObjectHideFlags: 0
@@ -12842,6 +13093,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &774291323
 GameObject:
   m_ObjectHideFlags: 0
@@ -12975,6 +13227,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &781619746
 GameObject:
   m_ObjectHideFlags: 0
@@ -13108,6 +13361,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &791333383
 GameObject:
   m_ObjectHideFlags: 0
@@ -13316,6 +13570,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &804635734
 GameObject:
   m_ObjectHideFlags: 0
@@ -13449,6 +13704,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1001 &805527811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13697,6 +13953,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &814493628
 GameObject:
   m_ObjectHideFlags: 0
@@ -13905,6 +14162,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &817813616
 GameObject:
   m_ObjectHideFlags: 0
@@ -14853,6 +15111,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &850150375
 GameObject:
   m_ObjectHideFlags: 0
@@ -15102,6 +15361,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &883406368
 GameObject:
   m_ObjectHideFlags: 0
@@ -15235,6 +15495,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &883922816
 GameObject:
   m_ObjectHideFlags: 0
@@ -15368,6 +15629,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &893191232
 GameObject:
   m_ObjectHideFlags: 0
@@ -15501,6 +15763,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &906600619
 GameObject:
   m_ObjectHideFlags: 0
@@ -15634,6 +15897,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!4 &909750721 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3340476485172025829, guid: b50b75747c3edf04fa09d006acbbb72a, type: 3}
@@ -15962,6 +16226,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &947055829
 GameObject:
   m_ObjectHideFlags: 0
@@ -16095,6 +16360,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &947247389
 GameObject:
   m_ObjectHideFlags: 0
@@ -16303,6 +16569,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &961521440
 GameObject:
   m_ObjectHideFlags: 0
@@ -16567,6 +16834,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &984069240
 GameObject:
   m_ObjectHideFlags: 0
@@ -16736,6 +17004,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &993619251
 GameObject:
   m_ObjectHideFlags: 0
@@ -16869,6 +17138,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &994406494
 GameObject:
   m_ObjectHideFlags: 0
@@ -17002,6 +17272,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &995149515
 GameObject:
   m_ObjectHideFlags: 0
@@ -17135,6 +17406,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &998118660
 GameObject:
   m_ObjectHideFlags: 0
@@ -17384,6 +17656,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1004623885
 GameObject:
   m_ObjectHideFlags: 0
@@ -17517,6 +17790,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1020723294
 GameObject:
   m_ObjectHideFlags: 0
@@ -17650,6 +17924,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1024622693
 GameObject:
   m_ObjectHideFlags: 0
@@ -17935,6 +18210,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1040022976
 GameObject:
   m_ObjectHideFlags: 0
@@ -18068,6 +18344,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1050358155
 GameObject:
   m_ObjectHideFlags: 0
@@ -18201,6 +18478,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1051196900
 GameObject:
   m_ObjectHideFlags: 0
@@ -18334,6 +18612,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1059051467
 GameObject:
   m_ObjectHideFlags: 0
@@ -18588,6 +18867,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1065208070
 GameObject:
   m_ObjectHideFlags: 0
@@ -18762,6 +19042,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1075000274
 GameObject:
   m_ObjectHideFlags: 0
@@ -19022,6 +19303,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1082482174
 GameObject:
   m_ObjectHideFlags: 0
@@ -19701,6 +19983,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1108287382
 GameObject:
   m_ObjectHideFlags: 0
@@ -19834,6 +20117,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1112799147
 GameObject:
   m_ObjectHideFlags: 0
@@ -19967,6 +20251,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1112853224
 GameObject:
   m_ObjectHideFlags: 0
@@ -20100,6 +20385,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1120429314
 GameObject:
   m_ObjectHideFlags: 0
@@ -20349,6 +20635,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1122697867
 GameObject:
   m_ObjectHideFlags: 0
@@ -20482,6 +20769,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1138528702
 GameObject:
   m_ObjectHideFlags: 0
@@ -20615,6 +20903,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1139628614
 GameObject:
   m_ObjectHideFlags: 0
@@ -20851,6 +21140,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1152070643
 GameObject:
   m_ObjectHideFlags: 0
@@ -20984,6 +21274,144 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
+--- !u!1 &1152392529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152392530}
+  - component: {fileID: 1152392532}
+  - component: {fileID: 1152392531}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1152392530
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152392529}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 190241456}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1152392531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152392529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Restart
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1152392532
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152392529}
+  m_CullTransparentMesh: 1
 --- !u!1 &1154765690
 GameObject:
   m_ObjectHideFlags: 0
@@ -21220,6 +21648,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1192158073
 GameObject:
   m_ObjectHideFlags: 0
@@ -21353,6 +21782,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1210223283
 GameObject:
   m_ObjectHideFlags: 0
@@ -21527,6 +21957,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1235774358
 GameObject:
   m_ObjectHideFlags: 0
@@ -21660,6 +22091,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1239776715
 GameObject:
   m_ObjectHideFlags: 0
@@ -21793,6 +22225,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1248263792
 GameObject:
   m_ObjectHideFlags: 0
@@ -21967,6 +22400,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1255657798
 GameObject:
   m_ObjectHideFlags: 0
@@ -22100,6 +22534,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1260110443
 GameObject:
   m_ObjectHideFlags: 0
@@ -22233,6 +22668,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1262986090
 GameObject:
   m_ObjectHideFlags: 0
@@ -22459,6 +22895,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1286891900
 GameObject:
   m_ObjectHideFlags: 0
@@ -22592,6 +23029,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1309057132
 GameObject:
   m_ObjectHideFlags: 0
@@ -22862,6 +23300,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1323550131
 GameObject:
   m_ObjectHideFlags: 0
@@ -23198,6 +23637,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1343360258
 GameObject:
   m_ObjectHideFlags: 0
@@ -23447,6 +23887,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1344400847
 GameObject:
   m_ObjectHideFlags: 0
@@ -23580,6 +24021,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1349764905
 GameObject:
   m_ObjectHideFlags: 0
@@ -23713,6 +24155,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1357752348
 GameObject:
   m_ObjectHideFlags: 0
@@ -23846,6 +24289,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1001 &1362734343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24192,6 +24636,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1373344313
 GameObject:
   m_ObjectHideFlags: 0
@@ -24441,6 +24886,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1384292521
 GameObject:
   m_ObjectHideFlags: 0
@@ -24574,6 +25020,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1390636566
 GameObject:
   m_ObjectHideFlags: 0
@@ -24707,6 +25154,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1394352680
 GameObject:
   m_ObjectHideFlags: 0
@@ -24915,6 +25363,60 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
+--- !u!1 &1398970841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1398970843}
+  - component: {fileID: 1398970842}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1398970842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398970841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5faa2ac6a6596614ba8858e03aeabb4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  playerGrid: {fileID: 1847161772}
+  botGrid: {fileID: 1433358756}
+  playerFleet: {fileID: 1847161773}
+  botFleet: {fileID: 1433358757}
+  isPlayerTurn: 1
+  gameOver: 0
+  botAttackTimer: 0
+  botAttackDelay: 2
+  winner: 
+--- !u!4 &1398970843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398970841}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.795, y: -0, z: -1.50558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1399419396
 GameObject:
   m_ObjectHideFlags: 0
@@ -25048,6 +25550,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1402119436
 GameObject:
   m_ObjectHideFlags: 0
@@ -25297,6 +25800,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1433358751
 GameObject:
   m_ObjectHideFlags: 0
@@ -25312,7 +25816,7 @@ GameObject:
   - component: {fileID: 1433358756}
   - component: {fileID: 1433358757}
   m_Layer: 0
-  m_Name: Plane2
+  m_Name: bot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25579,6 +26083,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1437220999
 GameObject:
   m_ObjectHideFlags: 0
@@ -25712,6 +26217,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1439222667
 GameObject:
   m_ObjectHideFlags: 0
@@ -25845,6 +26351,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1441072524
 GameObject:
   m_ObjectHideFlags: 0
@@ -26196,6 +26703,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1444232491
 GameObject:
   m_ObjectHideFlags: 0
@@ -26445,6 +26953,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1448137672
 GameObject:
   m_ObjectHideFlags: 0
@@ -26653,6 +27162,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1455456561
 GameObject:
   m_ObjectHideFlags: 0
@@ -26786,6 +27296,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1478354563
 GameObject:
   m_ObjectHideFlags: 0
@@ -26994,6 +27505,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1487912145
 GameObject:
   m_ObjectHideFlags: 0
@@ -27127,6 +27639,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1497356441
 GameObject:
   m_ObjectHideFlags: 0
@@ -27260,6 +27773,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1502333634
 GameObject:
   m_ObjectHideFlags: 0
@@ -27393,6 +27907,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1511364625
 GameObject:
   m_ObjectHideFlags: 0
@@ -27642,6 +28157,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1520419809
 GameObject:
   m_ObjectHideFlags: 0
@@ -28060,6 +28576,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1562374163
 GameObject:
   m_ObjectHideFlags: 0
@@ -28193,6 +28710,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1576805986
 GameObject:
   m_ObjectHideFlags: 0
@@ -28326,6 +28844,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1582244663
 GameObject:
   m_ObjectHideFlags: 0
@@ -28459,6 +28978,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1602885215
 GameObject:
   m_ObjectHideFlags: 0
@@ -28592,6 +29112,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1630715279
 GameObject:
   m_ObjectHideFlags: 0
@@ -28725,6 +29246,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1632552597
 GameObject:
   m_ObjectHideFlags: 0
@@ -28858,6 +29380,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1638138225
 GameObject:
   m_ObjectHideFlags: 0
@@ -28991,6 +29514,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1642372076
 GameObject:
   m_ObjectHideFlags: 0
@@ -29124,6 +29648,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1666707049
 GameObject:
   m_ObjectHideFlags: 0
@@ -29373,6 +29898,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1675442253
 GameObject:
   m_ObjectHideFlags: 0
@@ -29622,6 +30148,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1682295748
 GameObject:
   m_ObjectHideFlags: 0
@@ -29755,6 +30282,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1693770284
 GameObject:
   m_ObjectHideFlags: 0
@@ -29888,6 +30416,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1694070413
 GameObject:
   m_ObjectHideFlags: 0
@@ -30021,6 +30550,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1698490480
 GameObject:
   m_ObjectHideFlags: 0
@@ -30195,6 +30725,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1723733096
 GameObject:
   m_ObjectHideFlags: 0
@@ -30328,6 +30859,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1729236981
 GameObject:
   m_ObjectHideFlags: 0
@@ -30461,6 +30993,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1733258558
 GameObject:
   m_ObjectHideFlags: 0
@@ -30594,6 +31127,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1739944608
 GameObject:
   m_ObjectHideFlags: 0
@@ -30727,6 +31261,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1756045394
 GameObject:
   m_ObjectHideFlags: 0
@@ -30935,6 +31470,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1768523080
 GameObject:
   m_ObjectHideFlags: 0
@@ -31068,6 +31604,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1785409643
 GameObject:
   m_ObjectHideFlags: 0
@@ -31322,6 +31859,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1818609948
 GameObject:
   m_ObjectHideFlags: 0
@@ -31455,6 +31993,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1825357482
 GameObject:
   m_ObjectHideFlags: 0
@@ -31704,6 +32243,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1829927209
 GameObject:
   m_ObjectHideFlags: 0
@@ -31837,6 +32377,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1835809108 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2318766424490069697, guid: dae86721c71ee42018bbec0181a4e52e, type: 3}
@@ -31980,6 +32521,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1847161767
 GameObject:
   m_ObjectHideFlags: 0
@@ -31995,7 +32537,7 @@ GameObject:
   - component: {fileID: 1847161772}
   - component: {fileID: 1847161773}
   m_Layer: 0
-  m_Name: Plane1
+  m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32262,6 +32804,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1856692195
 GameObject:
   m_ObjectHideFlags: 0
@@ -32395,6 +32938,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1859417367
 GameObject:
   m_ObjectHideFlags: 0
@@ -32665,6 +33209,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1867624993
 GameObject:
   m_ObjectHideFlags: 0
@@ -32798,6 +33343,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1877591831
 GameObject:
   m_ObjectHideFlags: 0
@@ -32931,6 +33477,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1895013621
 GameObject:
   m_ObjectHideFlags: 0
@@ -33064,6 +33611,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1905935980
 GameObject:
   m_ObjectHideFlags: 0
@@ -33272,6 +33820,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1921942972
 GameObject:
   m_ObjectHideFlags: 0
@@ -33405,6 +33954,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1935056542
 GameObject:
   m_ObjectHideFlags: 0
@@ -33538,6 +34088,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1936784340
 GameObject:
   m_ObjectHideFlags: 0
@@ -33946,6 +34497,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1952116836
 GameObject:
   m_ObjectHideFlags: 0
@@ -34079,6 +34631,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1959364607 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2512387470528047719, guid: 48cb3fb68c91eb94999fd99957eb0cae, type: 3}
@@ -34096,6 +34649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af2a15043ed86d47ba1a650dcefc7ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  gameManager: {fileID: 0}
+  botGrid: {fileID: 0}
 --- !u!114 &1959364613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34108,6 +34663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af2a15043ed86d47ba1a650dcefc7ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputHandler
+  gameManager: {fileID: 0}
+  botGrid: {fileID: 0}
 --- !u!1 &1960406491
 GameObject:
   m_ObjectHideFlags: 0
@@ -34507,6 +35064,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1972491476
 GameObject:
   m_ObjectHideFlags: 0
@@ -34755,6 +35313,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1990468836
 GameObject:
   m_ObjectHideFlags: 0
@@ -34888,6 +35447,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &1990481310
 GameObject:
   m_ObjectHideFlags: 0
@@ -35021,6 +35581,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!114 &2001374502 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6402244310720262706, guid: 48cb3fb68c91eb94999fd99957eb0cae, type: 3}
@@ -35165,6 +35726,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2005429632
 GameObject:
   m_ObjectHideFlags: 0
@@ -35298,6 +35860,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2008511611
 GameObject:
   m_ObjectHideFlags: 0
@@ -35431,6 +35994,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2019089958
 GameObject:
   m_ObjectHideFlags: 0
@@ -35564,6 +36128,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2021733931
 GameObject:
   m_ObjectHideFlags: 0
@@ -35697,6 +36262,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2021867756
 GameObject:
   m_ObjectHideFlags: 0
@@ -35946,6 +36512,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2046747204
 GameObject:
   m_ObjectHideFlags: 0
@@ -36079,6 +36646,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2047503719
 GameObject:
   m_ObjectHideFlags: 0
@@ -36539,6 +37107,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2082694547
 GameObject:
   m_ObjectHideFlags: 0
@@ -36672,6 +37241,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2086985258
 GameObject:
   m_ObjectHideFlags: 0
@@ -36911,6 +37481,7 @@ RectTransform:
   - {fileID: 595971758}
   - {fileID: 239212525}
   - {fileID: 1024622694}
+  - {fileID: 190241456}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -37137,6 +37708,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2116170431
 GameObject:
   m_ObjectHideFlags: 0
@@ -37488,6 +38060,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2140077802
 GameObject:
   m_ObjectHideFlags: 0
@@ -37621,6 +38194,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1 &2141009917
 GameObject:
   m_ObjectHideFlags: 0
@@ -37754,6 +38328,7 @@ MonoBehaviour:
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   missColor: {r: 0, g: 1, b: 1, a: 1}
   shipColor: {r: 0, g: 1, b: 0, a: 1}
+  rend: {fileID: 0}
 --- !u!1001 &891726464977617767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38173,3 +38748,5 @@ SceneRoots:
   - {fileID: 331264285}
   - {fileID: 1847161771}
   - {fileID: 1433358755}
+  - {fileID: 118425577}
+  - {fileID: 1398970843}

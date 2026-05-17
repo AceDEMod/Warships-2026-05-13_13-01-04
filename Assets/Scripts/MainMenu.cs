@@ -1,0 +1,23 @@
+using UnityEngine.SceneManagement;
+using UnityEngine;
+
+public class MainMenu : MonoBehaviour
+{
+
+    public void StartGame(){
+        SceneManager.LoadScene("scene1");
+    }
+
+
+// Start is called once before the first execution of Update after the MonoBehaviour is created
+void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
