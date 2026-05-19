@@ -2,17 +2,49 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Grid playerGrid;
-    public Grid botGrid;
-    public Fleet playerFleet;
-    public Fleet botFleet;
-    public ShipPlacement shipPlacement;
+    [SerializeField] private GameObject[] shipPrefabs;
+
+    private ShipPlacement shipPlacement;
+
+    [SerializeField] private Grid playerGrid;
+    [SerializeField] private Grid botGrid;
+    [SerializeField] private Fleet playerFleet;
+    [SerializeField] private Fleet botFleet;
 
     public bool isPlayerTurn = true;
     public bool gameOver = false;
     public float botAttackTimer = 0f;
     public float botAttackDelay = 2f;
     public string winner = "";
+
+    void Start()
+    {
+        Debug.Log("Game starting...");
+        shipPlacement = new ShipPlacement();
+        shipPlacement.SetShipPrefabs(shipPrefabs);
+
+        Debug.Log("Placing player ships...");
+        // Passes the grids directly. The logic now snaps right to the cell objects.
+        shipPlacement.placeShipsRandom(playerGrid, playerFleet, false);
+        foreach (Ship ship in playerFleet.ships) { ship.markOccupiedCells(); }
+
+        Debug.Log("Placing bot ships...");
+        shipPlacement.placeShipsRandom(botGrid, botFleet, true);
+    
+        Debug.Log("Game started! Player's turn.");
+    }
+
+    void Update()
+    {
+        if (botAttackTimer > 0)
+        {
+            botAttackTimer -= Time.deltaTime;
+            if (botAttackTimer <= 0)
+            {
+                botAttack();
+            }
+        }
+    }
 
     public void playerAttack(int row, int col)
     {
@@ -127,14 +159,15 @@ public class GameManager : MonoBehaviour
         playerFleet.ships.Clear();
         botFleet.ships.Clear();
 
-        shipPlacement.placeShipsRandom(playerGrid, playerFleet);
+        // Updated clean references for restarting the match state
+        shipPlacement.placeShipsRandom(playerGrid, playerFleet, false);
         foreach (Ship ship in playerFleet.ships)
         {
             ship.calculateOccupiedCells();
             ship.markOccupiedCells();
         }
 
-        shipPlacement.placeShipsRandom(botGrid, botFleet);
+        shipPlacement.placeShipsRandom(botGrid, botFleet, true);
         foreach (Ship ship in botFleet.ships)
         {
             ship.calculateOccupiedCells();
@@ -150,30 +183,6 @@ public class GameManager : MonoBehaviour
             for (int col = 0; col < 10; col++)
             {
                 grid.cells[row, col].ResetCell();
-            }
-        }
-    }
-
-    void Start()
-    {
-        Debug.Log("Game starting...");
-        shipPlacement = new ShipPlacement();
-        Debug.Log("Placing player ships...");
-        shipPlacement.placeShipsRandom(playerGrid, playerFleet);
-        foreach (Ship ship in playerFleet.ships) { ship.markOccupiedCells(); }
-        Debug.Log("Placing bot ships...");
-        shipPlacement.placeShipsRandom(botGrid, botFleet);
-        Debug.Log("Game started! Player's turn.");
-    }
-
-    void Update()
-    {
-        if (botAttackTimer > 0)
-        {
-            botAttackTimer -= Time.deltaTime;
-            if (botAttackTimer <= 0)
-            {
-                botAttack();
             }
         }
     }
