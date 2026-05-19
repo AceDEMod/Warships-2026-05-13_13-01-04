@@ -17,7 +17,7 @@ public class Cell : MonoBehaviour
     public Color shipColor = Color.green;
 
 
-    private Renderer rend;
+    public Renderer rend;
 
     void Awake() {
         rend = GetComponent<Renderer>();
