@@ -25393,12 +25393,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5faa2ac6a6596614ba8858e03aeabb4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  shipPrefabs:
+  - {fileID: 5719028090462322144, guid: dbe5f673c4999076191900c22786c8a1, type: 3}
+  - {fileID: 4805491986684989091, guid: 885083f0c9d529cd29213c062fe21d14, type: 3}
+  - {fileID: 7760859580229888090, guid: 7293d844904e8b6659188d69a4f20652, type: 3}
+  - {fileID: 5580925999755024459, guid: d84758572eb39f144824476c7fd7222a, type: 3}
   playerGrid: {fileID: 1847161772}
   botGrid: {fileID: 1433358756}
   playerFleet: {fileID: 1847161773}
   botFleet: {fileID: 1433358757}
   isPlayerTurn: 1
-  gameOver: 0
+  gameOver: 1
   botAttackTimer: 0
   botAttackDelay: 2
   winner: 
