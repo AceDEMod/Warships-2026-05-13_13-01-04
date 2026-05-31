@@ -329,7 +329,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4D6B4E62265561272B12A47754B82BE3A909B118
 IL2CPP_EXTERN_C String_t* _stringLiteral5172A5FE099CB4BE8790D99DC4FE7EFA3A44F95B;
 IL2CPP_EXTERN_C String_t* _stringLiteral58BA5A27C757459CAE498DD9D1F19C469229C0C4;
 IL2CPP_EXTERN_C String_t* _stringLiteral58E19DF3960A2B71A5D90538C8E2190730EA8202;
-IL2CPP_EXTERN_C String_t* _stringLiteral5A60D345FAA1EB6D76D43B93BDFC837A1255DFDA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6480B0D978BCCBC17EC93548F510B2C274F03CE2;
 IL2CPP_EXTERN_C String_t* _stringLiteral68EB0819BCBE71A9100846C398D9BC0628A112EA;
 IL2CPP_EXTERN_C String_t* _stringLiteral6B31E5E5F9581F3402487D09A239BF7FFEE9DBEC;
@@ -4234,28 +4233,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDB
 	GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* V_3 = NULL;
 	Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* V_4 = NULL;
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:22>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral877676B3743B88CCFAF82CE7D6EDFA71C9BAFF55, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:23>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:25>
 		ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187* L_0 = (ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187*)il2cpp_codegen_object_new(ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187_il2cpp_TypeInfo_var);
 		ShipPlacement__ctor_m66CFED4C423C604F92987720CD7C4CFA2618B75D(L_0, NULL);
 		__this->___shipPlacement = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___shipPlacement), (void*)L_0);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:24>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:26>
 		ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187* L_1 = __this->___shipPlacement;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = __this->___shipPrefabs;
 		NullCheck(L_1);
 		ShipPlacement_SetShipPrefabs_mC78A618ADCE8936B2D0B56BE5876292364EF207F_inline(L_1, L_2, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:26>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:28>
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralBCFFD7982EB0B4DE75646E4D4AB42DA70A44473A, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:27>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:29>
 		ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187* L_3 = __this->___shipPlacement;
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_4 = __this->___playerGrid;
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_5 = __this->___playerFleet;
 		NullCheck(L_3);
 		ShipPlacement_placeShipsRandom_m302F3A2424F5A4D84CBA9012E56E757F59923F92(L_3, L_4, L_5, (bool)0, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:28>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:30>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_6 = __this->___playerFleet;
 		NullCheck(L_6);
 		List_1_tA593184229DD32BB9C81F0A8A37BCE9AFD345616* L_7 = L_6->___ships;
@@ -4282,17 +4281,17 @@ FINALLY_0072:
 
 IL_005b_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:28>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:30>
 				Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_9;
 				L_9 = Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_inline((&V_1), Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_RuntimeMethod_var);
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:28>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:30>
 				NullCheck(L_9);
 				Ship_markOccupiedCells_m343AB147A6F022D97828DC988823F9A3927F70E7(L_9, NULL);
 			}
 
 IL_0067_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:28>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:30>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6((&V_1), Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6_RuntimeMethod_var);
 				if (L_10)
@@ -4312,22 +4311,22 @@ IL_0067_1:
 
 IL_0080:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:30>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:32>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8A1E7B84AAC189648B80F26281CF103624B8316C, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:31>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:33>
 		ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187* L_11 = __this->___shipPlacement;
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_12 = __this->___botGrid;
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_13 = __this->___botFleet;
 		NullCheck(L_11);
 		ShipPlacement_placeShipsRandom_m302F3A2424F5A4D84CBA9012E56E757F59923F92(L_11, L_12, L_13, (bool)1, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:33>
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralFC340DEAFA8ED586FAEA751DADE08729BFCB89CC, NULL);
 		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:35>
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralFC340DEAFA8ED586FAEA751DADE08729BFCB89CC, NULL);
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:37>
 		GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* L_14;
 		L_14 = Component_GetComponentsInChildren_TisGrid_t37B32D08A1358EBD823A43D75667D21355CE2922_m3FED2595DE6912A47D2E0940716802663A625F66(__this, Component_GetComponentsInChildren_TisGrid_t37B32D08A1358EBD823A43D75667D21355CE2922_m3FED2595DE6912A47D2E0940716802663A625F66_RuntimeMethod_var);
 		V_0 = L_14;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:37>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:39>
 		GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* L_15 = V_0;
 		NullCheck(L_15);
 		V_2 = ((int32_t)(((RuntimeArray*)L_15)->max_length));
@@ -4336,7 +4335,7 @@ IL_0080:
 		String_t* L_17;
 		L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0E4E9F5316335432CE53890581212A944EC76FA3, L_16, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_17, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:39>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:41>
 		GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* L_18 = V_0;
 		V_3 = L_18;
 		V_2 = 0;
@@ -4345,14 +4344,14 @@ IL_0080:
 
 IL_00d3:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:39>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:41>
 		GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* L_19 = V_3;
 		int32_t L_20 = V_2;
 		NullCheck(L_19);
 		int32_t L_21 = L_20;
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_22 = (L_19)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
 		V_4 = L_22;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:41>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:43>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_23 = V_4;
 		NullCheck(L_23);
 		String_t* L_24;
@@ -4367,7 +4366,7 @@ IL_00d3:
 
 IL_00f2:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:39>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:41>
 		int32_t L_27 = V_2;
 		GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* L_28 = V_3;
 		NullCheck(L_28);
@@ -4377,7 +4376,7 @@ IL_00f2:
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:43>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:45>
 		return;
 	}
 }
@@ -4385,7 +4384,7 @@ IL_00f2:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:47>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:49>
 		float L_0 = __this->___botAttackTimer;
 		if ((!(((float)L_0) > ((float)(0.0f)))))
 		{
@@ -4393,12 +4392,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:49>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:51>
 		float L_1 = __this->___botAttackTimer;
 		float L_2;
 		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___botAttackTimer = ((float)il2cpp_codegen_subtract(L_1, L_2));
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:50>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:52>
 		float L_3 = __this->___botAttackTimer;
 		if ((!(((float)L_3) <= ((float)(0.0f)))))
 		{
@@ -4406,13 +4405,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:52>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:54>
 		GameManager_botAttack_mE20A0FF7E30C6051F3CC75E99CA457E136CFED4A(__this, NULL);
 	}
 
 IL_0032:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:55>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:57>
 		return;
 	}
 }
@@ -4454,7 +4453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_playerAttack_m1240E7323B783F
 	Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* V_5 = NULL;
 	int32_t V_6 = 0;
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:59>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:61>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -4479,7 +4478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_playerAttack_m1240E7323B783F
 		L_8 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:60>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:62>
 		bool L_9 = __this->___isPlayerTurn;
 		if (!L_9)
 		{
@@ -4496,16 +4495,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_playerAttack_m1240E7323B783F
 
 IL_004c:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:62>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral58E19DF3960A2B71A5D90538C8E2190730EA8202, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:63>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:65>
 		return;
 	}
 
 IL_0057:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:65>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:67>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_11 = __this->___botGrid;
 		NullCheck(L_11);
 		CellU5BU2CU5D_t758ECF3B1E2DDC980A4EB6550B999F1668F1192F* L_12 = L_11->___cells;
@@ -4522,16 +4521,16 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:67>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:69>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral4A83F8B6684D746C3D45CC21619CB0E283DDB8B4, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:68>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:70>
 		return;
 	}
 
 IL_007b:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:72>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:73>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_17 = __this->___botGrid;
 		NullCheck(L_17);
 		CellU5BU2CU5D_t758ECF3B1E2DDC980A4EB6550B999F1668F1192F* L_18 = L_17->___cells;
@@ -4543,7 +4542,7 @@ IL_007b:
 		NullCheck(L_21);
 		bool L_22;
 		L_22 = Cell_onClick_m03694E47B5E289AAC76146DF04C72F75C21BE63D(L_21, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:74>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:75>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_23 = __this->___botGrid;
 		NullCheck(L_23);
 		CellU5BU2CU5D_t758ECF3B1E2DDC980A4EB6550B999F1668F1192F* L_24 = L_23->___cells;
@@ -4553,9 +4552,9 @@ IL_007b:
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_27;
 		L_27 = (L_24)->GetAt(L_25, L_26);
 		V_0 = L_27;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:76>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:77>
 		V_1 = (Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F*)NULL;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:78>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:79>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_28 = __this->___botFleet;
 		NullCheck(L_28);
 		List_1_tA593184229DD32BB9C81F0A8A37BCE9AFD345616* L_29;
@@ -4583,11 +4582,11 @@ FINALLY_0126:
 
 IL_00bb_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:78>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:79>
 				Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_31;
 				L_31 = Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_inline((&V_2), Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_RuntimeMethod_var);
 				V_3 = L_31;
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:80>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:81>
 				Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_32 = V_3;
 				NullCheck(L_32);
 				List_1_t51403B1F82D12D575060ABA7965553EFF8B1422D* L_33 = L_32->___occupiedCells;
@@ -4614,11 +4613,11 @@ FINALLY_0108_1:
 
 IL_00d2_2:
 					{
-						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:80>
+						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:81>
 						Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_35;
 						L_35 = Enumerator_get_Current_m3B8EC7F60511AABA23314B555FE4301BCC2485B1_inline((&V_4), Enumerator_get_Current_m3B8EC7F60511AABA23314B555FE4301BCC2485B1_RuntimeMethod_var);
 						V_5 = L_35;
-						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:82>
+						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:83>
 						Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_36 = V_5;
 						NullCheck(L_36);
 						int32_t L_37 = L_36->___row;
@@ -4643,16 +4642,16 @@ IL_00d2_2:
 						}
 					}
 					{
-						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:84>
+						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:85>
 						Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_44 = V_3;
 						V_1 = L_44;
-						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:85>
+						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:86>
 						goto IL_0116_1;
 					}
 
 IL_00fd_2:
 					{
-						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:80>
+						//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:81>
 						bool L_45;
 						L_45 = Enumerator_MoveNext_m3A54A1E26155324F38D9C260B88A6046E3D483C0((&V_4), Enumerator_MoveNext_m3A54A1E26155324F38D9C260B88A6046E3D483C0_RuntimeMethod_var);
 						if (L_45)
@@ -4672,7 +4671,7 @@ IL_00fd_2:
 
 IL_0116_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:88>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:89>
 				Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_46 = V_1;
 				if (!L_46)
 				{
@@ -4680,13 +4679,13 @@ IL_0116_1:
 				}
 			}
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:88>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:89>
 				goto IL_0134;
 			}
 
 IL_011b_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:78>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:79>
 				bool L_47;
 				L_47 = Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6((&V_2), Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6_RuntimeMethod_var);
 				if (L_47)
@@ -4706,86 +4705,98 @@ IL_011b_1:
 
 IL_0134:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:91>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:92>
 		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_48 = V_1;
 		if (!L_48)
 		{
-			goto IL_0197;
+			goto IL_01ad;
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:93>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:94>
 		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_49 = V_1;
 		NullCheck(L_49);
 		Ship_takeDamage_m74D6F512254C3B223B9D1D96F8A473F515731A1B(L_49, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:94>
-		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_50 = V_1;
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:95>
+		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_50 = V_0;
 		NullCheck(L_50);
-		int32_t L_51;
-		L_51 = Ship_getHealth_mEAFDED32D710725379AF28DE3705BA40955A00AE(L_50, NULL);
-		V_6 = L_51;
-		String_t* L_52;
-		L_52 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_6), NULL);
-		String_t* L_53;
-		L_53 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFFCCAC8B165AAF821314771144217B117DFB5CD3, L_52, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_53, NULL);
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_51 = L_50->___rend;
+		NullCheck(L_51);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_52;
+		L_52 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_51, NULL);
+		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_53 = V_0;
+		NullCheck(L_53);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_54 = L_53->___hitColor;
+		NullCheck(L_52);
+		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_52, L_54, NULL);
 		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:96>
-		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_54 = V_1;
-		NullCheck(L_54);
-		bool L_55;
-		L_55 = Ship_isShipSunk_m4F094660D694D77EEA3E7D1E8EF585FD11202D9A_inline(L_54, NULL);
-		if (!L_55)
+		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_55 = V_1;
+		NullCheck(L_55);
+		int32_t L_56;
+		L_56 = Ship_getHealth_mEAFDED32D710725379AF28DE3705BA40955A00AE(L_55, NULL);
+		V_6 = L_56;
+		String_t* L_57;
+		L_57 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_6), NULL);
+		String_t* L_58;
+		L_58 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFFCCAC8B165AAF821314771144217B117DFB5CD3, L_57, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_58, NULL);
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:98>
+		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_59 = V_1;
+		NullCheck(L_59);
+		bool L_60;
+		L_60 = Ship_isShipSunk_m4F094660D694D77EEA3E7D1E8EF585FD11202D9A_inline(L_59, NULL);
+		if (!L_60)
 		{
-			goto IL_016d;
+			goto IL_0183;
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:98>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:100>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral40505A90D138E50E11C2D469922AC4DE3D04B8C1, NULL);
 	}
 
-IL_016d:
+IL_0183:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:101>
-		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_56 = __this->___botFleet;
-		NullCheck(L_56);
-		bool L_57;
-		L_57 = Fleet_checkFleetStatus_m2A9DBA14898D75B786BE7526618C38DF5066BC46(L_56, NULL);
-		if (!L_57)
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:103>
+		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_61 = __this->___botFleet;
+		NullCheck(L_61);
+		bool L_62;
+		L_62 = Fleet_checkFleetStatus_m2A9DBA14898D75B786BE7526618C38DF5066BC46(L_61, NULL);
+		if (!L_62)
 		{
-			goto IL_01a1;
+			goto IL_01b7;
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:103>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:105>
 		__this->___gameOver = (bool)1;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:104>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:106>
 		__this->___winner = _stringLiteralD8431B5D5BBDD13458B95AC3252777089DFF7F0A;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___winner), (void*)_stringLiteralD8431B5D5BBDD13458B95AC3252777089DFF7F0A);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:105>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:107>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral31031D725D9E1F6EFA44DE08CD56E866B7EB7717, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:106>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:108>
 		return;
 	}
 
-IL_0197:
+IL_01ad:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:111>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:113>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAC2CFA4C9B01B7B84B31A1CF7F62463791C8947E, NULL);
 	}
 
-IL_01a1:
+IL_01b7:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:114>
-		__this->___isPlayerTurn = (bool)0;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:115>
-		float L_58 = __this->___botAttackDelay;
-		__this->___botAttackTimer = L_58;
 		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:116>
+		__this->___isPlayerTurn = (bool)0;
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:117>
+		float L_63 = __this->___botAttackDelay;
+		__this->___botAttackTimer = L_63;
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:118>
 		return;
 	}
 }
@@ -4816,15 +4827,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_botAttack_mE20A0FF7E30C6051F
 	Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* V_3 = NULL;
 	int32_t V_4 = 0;
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:120>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:122>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral1ECF6D24E7973A88372A462394138C39D0352FF1, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:121>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:123>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_0 = __this->___playerGrid;
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_1;
 		L_1 = GameManager_findRandomCell_m2B2AB5A9CDD08E6CFE1E86E92C763D7F7117CC1B(__this, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:122>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:124>
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -4835,38 +4846,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_botAttack_mE20A0FF7E30C6051F
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:124>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:126>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3E58E201E3DA51BAC047E60D57A8132DDAB064D1, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:125>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:127>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:128>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:130>
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_4 = V_0;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___row;
 		V_1 = L_5;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:129>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:131>
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_6 = V_0;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___col;
 		V_2 = L_7;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:131>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:133>
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_8 = V_0;
 		NullCheck(L_8);
 		bool L_9;
 		L_9 = Cell_onClick_m03694E47B5E289AAC76146DF04C72F75C21BE63D(L_8, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:133>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:135>
 		if (!L_9)
 		{
 			goto IL_00f4;
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:135>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:137>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
 		NullCheck(L_11);
@@ -4891,7 +4902,7 @@ IL_002b:
 		L_18 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_17, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_18, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:136>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:138>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_19 = __this->___playerFleet;
 		int32_t L_20 = V_1;
 		int32_t L_21 = V_2;
@@ -4899,7 +4910,7 @@ IL_002b:
 		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_22;
 		L_22 = Fleet_getShip_m34F1C4EB301B5967A091566281DAF5C77E21F2B5(L_19, L_20, L_21, NULL);
 		V_3 = L_22;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:138>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:140>
 		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_23 = V_3;
 		if (!L_23)
 		{
@@ -4907,11 +4918,11 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:140>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:142>
 		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_24 = V_3;
 		NullCheck(L_24);
 		Ship_takeDamage_m74D6F512254C3B223B9D1D96F8A473F515731A1B(L_24, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:141>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:143>
 		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_25 = V_3;
 		NullCheck(L_25);
 		int32_t L_26;
@@ -4923,7 +4934,7 @@ IL_002b:
 		L_28 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE74908070D1DDFA4B536CBA049AE1A25CE43088D, L_27, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_28, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:143>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:145>
 		Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_29 = V_3;
 		NullCheck(L_29);
 		bool L_30;
@@ -4934,14 +4945,14 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:145>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:147>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral49EAD423BC3005D2886D6D57DB5EE876119A4D26, NULL);
 	}
 
 IL_00ca:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:148>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:150>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_31 = __this->___playerFleet;
 		NullCheck(L_31);
 		bool L_32;
@@ -4952,21 +4963,21 @@ IL_00ca:
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:150>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:152>
 		__this->___gameOver = (bool)1;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:151>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:153>
 		__this->___winner = _stringLiteral4D6B4E62265561272B12A47754B82BE3A909B118;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___winner), (void*)_stringLiteral4D6B4E62265561272B12A47754B82BE3A909B118);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:152>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:154>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralD971664250A09571F3E5EDAE1B6DF93312C699B2, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:153>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:155>
 		return;
 	}
 
 IL_00f4:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:159>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:161>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_33 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = L_33;
 		NullCheck(L_34);
@@ -4995,9 +5006,9 @@ IL_00f4:
 
 IL_0130:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:162>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:164>
 		__this->___isPlayerTurn = (bool)1;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:163>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:165>
 		return;
 	}
 }
@@ -5015,24 +5026,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:167>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:169>
 		V_0 = (Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A*)NULL;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:168>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:170>
 		V_1 = ((int32_t)300);
 		goto IL_002e;
 	}
 
 IL_000a:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:172>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:174>
 		int32_t L_0;
 		L_0 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)10), NULL);
 		V_2 = L_0;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:173>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:175>
 		int32_t L_1;
 		L_1 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)10), NULL);
 		V_3 = L_1;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:174>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:176>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_2 = ___0_grid;
 		NullCheck(L_2);
 		CellU5BU2CU5D_t758ECF3B1E2DDC980A4EB6550B999F1668F1192F* L_3 = L_2->___cells;
@@ -5042,14 +5053,14 @@ IL_000a:
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_6;
 		L_6 = (L_3)->GetAt(L_4, L_5);
 		V_0 = L_6;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:175>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:177>
 		int32_t L_7 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_7, 1));
 	}
 
 IL_002e:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:170>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:172>
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_8 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -5080,7 +5091,7 @@ IL_003f:
 
 IL_0043:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:177>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:179>
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_13 = V_0;
 		return L_13;
 	}
@@ -5105,43 +5116,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RestartGame_m03813C863F1F1AB
 	Enumerator_tDA0CCF1906376105C555AC498C6FBADAC3103FF4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:182>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:184>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF560F7933A1E42D0173D3C11AF72F57D91D2AB90, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:183>
-		__this->___isPlayerTurn = (bool)1;
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:184>
-		__this->___gameOver = (bool)0;
 		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:185>
+		__this->___isPlayerTurn = (bool)1;
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:186>
+		__this->___gameOver = (bool)0;
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:187>
 		__this->___winner = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___winner), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:186>
-		__this->___botAttackTimer = (0.0f);
 		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:188>
+		__this->___botAttackTimer = (0.0f);
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:190>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_0 = __this->___playerGrid;
 		GameManager_ResetGrid_m22FEBAD1AFB737635FEF753C9196913895AD3602(__this, L_0, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:189>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:191>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_1 = __this->___botGrid;
 		GameManager_ResetGrid_m22FEBAD1AFB737635FEF753C9196913895AD3602(__this, L_1, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:191>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:193>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_2 = __this->___playerFleet;
 		NullCheck(L_2);
 		List_1_tA593184229DD32BB9C81F0A8A37BCE9AFD345616* L_3 = L_2->___ships;
 		NullCheck(L_3);
 		List_1_Clear_m1A1CBCB718AC8EC0964D9D965D5FCCFF43734DBB_inline(L_3, List_1_Clear_m1A1CBCB718AC8EC0964D9D965D5FCCFF43734DBB_RuntimeMethod_var);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:192>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:194>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_4 = __this->___botFleet;
 		NullCheck(L_4);
 		List_1_tA593184229DD32BB9C81F0A8A37BCE9AFD345616* L_5 = L_4->___ships;
 		NullCheck(L_5);
 		List_1_Clear_m1A1CBCB718AC8EC0964D9D965D5FCCFF43734DBB_inline(L_5, List_1_Clear_m1A1CBCB718AC8EC0964D9D965D5FCCFF43734DBB_RuntimeMethod_var);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:194>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:196>
 		ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187* L_6 = __this->___shipPlacement;
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_7 = __this->___playerGrid;
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_8 = __this->___playerFleet;
 		NullCheck(L_6);
 		ShipPlacement_placeShipsRandom_m302F3A2424F5A4D84CBA9012E56E757F59923F92(L_6, L_7, L_8, (bool)0, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:195>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:197>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_9 = __this->___playerFleet;
 		NullCheck(L_9);
 		List_1_tA593184229DD32BB9C81F0A8A37BCE9AFD345616* L_10 = L_9->___ships;
@@ -5168,21 +5179,21 @@ FINALLY_00ae:
 
 IL_0091_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:195>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:197>
 				Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_12;
 				L_12 = Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_inline((&V_0), Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_RuntimeMethod_var);
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:197>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:199>
 				Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_13 = L_12;
 				NullCheck(L_13);
 				Ship_calculateOccupiedCells_mF569A271223EFAC077ED359084C8288B37E8D143(L_13, NULL);
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:198>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:200>
 				NullCheck(L_13);
 				Ship_markOccupiedCells_m343AB147A6F022D97828DC988823F9A3927F70E7(L_13, NULL);
 			}
 
 IL_00a3_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:195>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:197>
 				bool L_14;
 				L_14 = Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6((&V_0), Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6_RuntimeMethod_var);
 				if (L_14)
@@ -5202,13 +5213,13 @@ IL_00a3_1:
 
 IL_00bc:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:201>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:203>
 		ShipPlacement_t4631639FC4E475F631EFDBC5DF29DB5AE0C9A187* L_15 = __this->___shipPlacement;
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_16 = __this->___botGrid;
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_17 = __this->___botFleet;
 		NullCheck(L_15);
 		ShipPlacement_placeShipsRandom_m302F3A2424F5A4D84CBA9012E56E757F59923F92(L_15, L_16, L_17, (bool)1, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:202>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:204>
 		Fleet_tF0229E40E7891D59E45C35CA243147FBAE83ED0A* L_18 = __this->___botFleet;
 		NullCheck(L_18);
 		List_1_tA593184229DD32BB9C81F0A8A37BCE9AFD345616* L_19 = L_18->___ships;
@@ -5235,17 +5246,17 @@ FINALLY_00fe:
 
 IL_00e7_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:202>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:204>
 				Ship_tC52B303267206AD2EB56281BF0CD89F0B9984C1F* L_21;
 				L_21 = Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_inline((&V_0), Enumerator_get_Current_m4A6421570B5F1C3990546BCCD7BA83725DA94FBB_RuntimeMethod_var);
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:204>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:206>
 				NullCheck(L_21);
 				Ship_calculateOccupiedCells_mF569A271223EFAC077ED359084C8288B37E8D143(L_21, NULL);
 			}
 
 IL_00f3_1:
 			{
-				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:202>
+				//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:204>
 				bool L_22;
 				L_22 = Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6((&V_0), Enumerator_MoveNext_mF80524AD64BF6442DA0C067A2F10B1B2651AF8C6_RuntimeMethod_var);
 				if (L_22)
@@ -5265,10 +5276,10 @@ IL_00f3_1:
 
 IL_010c:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:207>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:209>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral81724B3B35C69E1DECF16796263FC8044AE539F3, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:208>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:210>
 		return;
 	}
 }
@@ -5278,21 +5289,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ResetGrid_m22FEBAD1AFB737635
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:212>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:214>
 		V_0 = 0;
 		goto IL_0027;
 	}
 
 IL_0004:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:214>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:216>
 		V_1 = 0;
 		goto IL_001e;
 	}
 
 IL_0008:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:216>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:218>
 		Grid_t37B32D08A1358EBD823A43D75667D21355CE2922* L_0 = ___0_grid;
 		NullCheck(L_0);
 		CellU5BU2CU5D_t758ECF3B1E2DDC980A4EB6550B999F1668F1192F* L_1 = L_0->___cells;
@@ -5303,14 +5314,14 @@ IL_0008:
 		L_4 = (L_1)->GetAt(L_2, L_3);
 		NullCheck(L_4);
 		Cell_ResetCell_mFE28A4B778BF91B1E43CC8F5F8F7CA7EA2BAFD22(L_4, NULL);
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:214>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:216>
 		int32_t L_5 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_001e:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:214>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:216>
 		int32_t L_6 = V_1;
 		if ((((int32_t)L_6) < ((int32_t)((int32_t)10))))
 		{
@@ -5318,14 +5329,14 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:212>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:214>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_0027:
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:212>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:214>
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_8) < ((int32_t)((int32_t)10))))
 		{
@@ -5333,7 +5344,7 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:219>
+		//<source_info:F:/Unity/Warships/Assets/Scripts/GameManager.cs:221>
 		return;
 	}
 }
@@ -5608,7 +5619,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputHandler_Update_mA84668111B5BA4BA9C5
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral39C826AB030B50C70E53DC0F559526B984217EEF);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3C18446ABBF88A6BAEBD3835EE42ABCEBC4F6A64);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4831C5516DA839520823E0394C643AB847D4213D);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5A60D345FAA1EB6D76D43B93BDFC837A1255DFDA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68EB0819BCBE71A9100846C398D9BC0628A112EA);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral78D28B14AF78DE05D54A77EDA5B2514C14FDE7B1);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7DF495FD172B6EBEBB8C121695DF1BD63CB229D8);
@@ -5628,15 +5638,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputHandler_Update_mA84668111B5BA4BA9C5
 	memset((&V_4), 0, sizeof(V_4));
 	Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* V_5 = NULL;
 	{
-		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:32>
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5A60D345FAA1EB6D76D43B93BDFC837A1255DFDA, NULL);
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:34>
 		bool L_0;
 		L_0 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_0)
 		{
-			goto IL_00af;
+			goto IL_00a5;
 		}
 	}
 	{
@@ -5650,7 +5657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputHandler_Update_mA84668111B5BA4BA9C5
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_2)
 		{
-			goto IL_00a5;
+			goto IL_009b;
 		}
 	}
 	{
@@ -5666,7 +5673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputHandler_Update_mA84668111B5BA4BA9C5
 		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_5)
 		{
-			goto IL_0051;
+			goto IL_0047;
 		}
 	}
 	{
@@ -5677,7 +5684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputHandler_Update_mA84668111B5BA4BA9C5
 		return;
 	}
 
-IL_0051:
+IL_0047:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:48>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -5701,10 +5708,10 @@ IL_0051:
 		GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* L_10 = V_0;
 		V_2 = L_10;
 		V_1 = 0;
-		goto IL_009f;
+		goto IL_0095;
 	}
 
-IL_0082:
+IL_0078:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:56>
 		GridU5BU5D_t33472C47764EDB7E042649C9412011E704889EB9* L_11 = V_2;
@@ -5726,7 +5733,7 @@ IL_0082:
 		V_1 = ((int32_t)il2cpp_codegen_add(L_18, 1));
 	}
 
-IL_009f:
+IL_0095:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:56>
 		int32_t L_19 = V_1;
@@ -5734,25 +5741,25 @@ IL_009f:
 		NullCheck(L_20);
 		if ((((int32_t)L_19) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
 		{
-			goto IL_0082;
+			goto IL_0078;
 		}
 	}
 
-IL_00a5:
+IL_009b:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:62>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral39C826AB030B50C70E53DC0F559526B984217EEF, NULL);
 	}
 
-IL_00af:
+IL_00a5:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:64>
 		bool L_21;
 		L_21 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(0, NULL);
 		if (!L_21)
 		{
-			goto IL_0221;
+			goto IL_0217;
 		}
 	}
 	{
@@ -5770,7 +5777,7 @@ IL_00af:
 		L_25 = Physics_Raycast_mCAC9F02A1AAB49E16B384EBC8318E2DF30F4B0E5(L_24, (&V_4), NULL);
 		if (!L_25)
 		{
-			goto IL_0221;
+			goto IL_0217;
 		}
 	}
 	{
@@ -5788,7 +5795,7 @@ IL_00af:
 		L_29 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_29)
 		{
-			goto IL_00fb;
+			goto IL_00f1;
 		}
 	}
 	{
@@ -5801,7 +5808,7 @@ IL_00af:
 		V_5 = L_31;
 	}
 
-IL_00fb:
+IL_00f1:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:77>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_32;
@@ -5820,7 +5827,7 @@ IL_00fb:
 		L_36 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_36)
 		{
-			goto IL_014e;
+			goto IL_0144;
 		}
 	}
 	{
@@ -5839,17 +5846,17 @@ IL_00fb:
 		L_43 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralB75BC4BCB620F72D138A27659239694AA3F1A885, L_39, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB, L_42, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_43, NULL);
-		goto IL_0158;
+		goto IL_014e;
 	}
 
-IL_014e:
+IL_0144:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral4831C5516DA839520823E0394C643AB847D4213D, NULL);
 	}
 
-IL_0158:
+IL_014e:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:87>
 		Cell_t88832599049D1ADACE41CE1CF9C147304CF76D5A* L_44 = V_5;
@@ -5858,7 +5865,7 @@ IL_0158:
 		L_45 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_44, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_45)
 		{
-			goto IL_01d0;
+			goto IL_01c6;
 		}
 	}
 	{
@@ -5880,7 +5887,7 @@ IL_0158:
 		L_54 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_52, L_53, NULL);
 		if (!L_54)
 		{
-			goto IL_01d0;
+			goto IL_01c6;
 		}
 	}
 	{
@@ -5893,7 +5900,7 @@ IL_0158:
 		bool L_56 = L_55->___isPlayerTurn;
 		if (!L_56)
 		{
-			goto IL_01d0;
+			goto IL_01c6;
 		}
 	}
 	{
@@ -5902,7 +5909,7 @@ IL_0158:
 		bool L_58 = L_57->___gameOver;
 		if (L_58)
 		{
-			goto IL_01d0;
+			goto IL_01c6;
 		}
 	}
 	{
@@ -5921,7 +5928,7 @@ IL_0158:
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral78D28B14AF78DE05D54A77EDA5B2514C14FDE7B1, NULL);
 	}
 
-IL_01d0:
+IL_01c6:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:97>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_64;
@@ -5940,7 +5947,7 @@ IL_01d0:
 		L_68 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_67, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_68)
 		{
-			goto IL_0221;
+			goto IL_0217;
 		}
 	}
 	{
@@ -5961,7 +5968,7 @@ IL_01d0:
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_75, NULL);
 	}
 
-IL_0221:
+IL_0217:
 	{
 		//<source_info:F:/Unity/Warships/Assets/Scripts/InputHandler.cs:105>
 		return;

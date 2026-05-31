@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+
+        //
         Debug.Log("Game starting...");
         shipPlacement = new ShipPlacement();
         shipPlacement.SetShipPrefabs(shipPrefabs);
