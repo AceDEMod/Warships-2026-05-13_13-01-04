@@ -3,6 +3,7 @@ using UnityEditor;
 
 public class CellAutoAssign : EditorWindow
 {
+    //
     [MenuItem("Tools/Auto Assign Cell Rows and Cols")]
     static void Assign()
     {

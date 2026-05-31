@@ -10,7 +10,7 @@ public class Ship
     public int hits = 0;
     public bool isSunk = false;
     private Grid grid;
-    private List<Cell> occupiedCells = new List<Cell>();
+    public List<Cell> occupiedCells = new List<Cell>();
 
     public Ship(int shipSize, int row, int col, bool horizontal, Grid paramGrid) {
         size = shipSize;

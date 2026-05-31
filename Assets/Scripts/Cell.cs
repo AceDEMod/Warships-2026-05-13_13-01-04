@@ -38,10 +38,12 @@ public class Cell : MonoBehaviour
     }
 
     public void PlaceShip()
-    {
-        hasShip = true;
-        rend.material.color = shipColor;
-    }
+{
+    Debug.Log("SHIP PLACED ON CELL: " + row + "," + col);
+
+    hasShip = true;
+    rend.material.color = shipColor;
+}
 
     public void ResetCell()
     {

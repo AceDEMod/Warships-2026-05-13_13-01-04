@@ -44,6 +44,13 @@ public class Fleet : MonoBehaviour
         return true;
     }
 
+    
+
+    public List<Ship> GetShips()
+    {
+        return ships;
+    }
+
 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()

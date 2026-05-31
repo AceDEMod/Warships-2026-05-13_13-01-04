@@ -24,14 +24,22 @@ public class GameManager : MonoBehaviour
         shipPlacement.SetShipPrefabs(shipPrefabs);
 
         Debug.Log("Placing player ships...");
-        // Passes the grids directly. The logic now snaps right to the cell objects.
         shipPlacement.placeShipsRandom(playerGrid, playerFleet, false);
         foreach (Ship ship in playerFleet.ships) { ship.markOccupiedCells(); }
 
         Debug.Log("Placing bot ships...");
         shipPlacement.placeShipsRandom(botGrid, botFleet, true);
-    
+
         Debug.Log("Game started! Player's turn.");
+
+        Grid[] grids = GetComponentsInChildren<Grid>();
+
+        Debug.Log("Found grids: " + grids.Length);
+
+        foreach (Grid g in grids)
+        {
+            Debug.Log("Grid name: " + g.name);
+        }
     }
 
     void Update()
@@ -59,19 +67,36 @@ public class GameManager : MonoBehaviour
             Debug.Log("Cell already hit!");
             return;
         }
+        //
 
         botGrid.cells[row, col].onClick();
 
-        Ship hitShipLocation = botFleet.getShip(row, col);
+        Cell clickedCell = botGrid.cells[row, col];
 
-        if (hitShipLocation != null)
+        Ship hitShip = null;
+
+        foreach (Ship ship in botFleet.GetShips())
         {
-            botGrid.cells[row, col].rend.material.color = botGrid.cells[row, col].hitColor;
-            if (!hitShipLocation.isShipSunk())
+            foreach (Cell c in ship.occupiedCells)
             {
-                hitShipLocation.takeDamage();
+                if (c.row == clickedCell.row && c.col == clickedCell.col)
+                {
+                    hitShip = ship;
+                    break;
+                }
             }
-            Debug.Log("Hit!");
+            if (hitShip != null) break;
+        }
+
+        if (hitShip != null)
+        {
+            hitShip.takeDamage();
+            Debug.Log("Hit! Ship health: " + hitShip.getHealth());
+
+            if (hitShip.isShipSunk())
+            {
+                Debug.Log("Ship sunk!");
+            }
 
             if (botFleet.checkFleetStatus())
             {
@@ -85,8 +110,9 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Miss!");
         }
-        botAttackTimer = botAttackDelay;
+
         isPlayerTurn = false;
+        botAttackTimer = botAttackDelay;
     }
 
     public void botAttack()
@@ -102,31 +128,37 @@ public class GameManager : MonoBehaviour
         int row = target.row;
         int col = target.col;
 
-        bool hitShip = target.onClick();
-        if (hitShip)
+        bool hitResult = target.onClick();
+
+        if (hitResult)
         {
-            Debug.Log("Bot hit a ship at (" + row + ", " + col + ")");
-            Ship hitShipLocation = playerFleet.getShip(row, col);
+            Debug.Log("Bot hit at (" + row + ", " + col + ")");
+            Ship hitShip = playerFleet.getShip(row, col);
 
-            if (hitShipLocation != null && !hitShipLocation.isShipSunk())
+            if (hitShip != null)
             {
-                target.rend.material.color = target.hitColor;
-                hitShipLocation.takeDamage();
-            }
+                hitShip.takeDamage();
+                Debug.Log("Bot hit! Ship health: " + hitShip.getHealth());
 
-            if (playerFleet.checkFleetStatus())
-            {
-                gameOver = true;
-                winner = "bot";
-                Debug.Log("Bot wins!");
-                return;
+                if (hitShip.isShipSunk())
+                {
+                    Debug.Log("Bot sunk a ship!");
+                }
+
+                if (playerFleet.checkFleetStatus())
+                {
+                    gameOver = true;
+                    winner = "bot";
+                    Debug.Log("Bot wins!");
+                    return;
+                }
             }
         }
         else
         {
-            target.rend.material.color = target.missColor;
             Debug.Log("Bot missed at (" + row + ", " + col + ")");
         }
+
         isPlayerTurn = true;
     }
 
@@ -159,7 +191,6 @@ public class GameManager : MonoBehaviour
         playerFleet.ships.Clear();
         botFleet.ships.Clear();
 
-        // Updated clean references for restarting the match state
         shipPlacement.placeShipsRandom(playerGrid, playerFleet, false);
         foreach (Ship ship in playerFleet.ships)
         {

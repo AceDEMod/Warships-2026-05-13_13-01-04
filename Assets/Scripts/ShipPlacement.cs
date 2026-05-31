@@ -27,70 +27,57 @@ public class ShipPlacement
                     newShip.calculateOccupiedCells();
                     fleet.addShip(newShip);
 
+                    Debug.Log(
+                        (isBot ? "[BOT]" : "[PLAYER]") +
+                        " Ship placed -> size: " + size +
+                        " start: (" + randRow + "," + randCol + ")" +
+                        " horizontal: " + isHorizontal
+                    );
+
                     if (!isBot)
                     {
-                        // 1. Get base cell position (Each cube step is 0.6 units)
-                        Vector3 startCellPosition = grid.cells[randRow, randCol].transform.position;
-                        Vector3 spawnPosition = new Vector3(startCellPosition.x, startCellPosition.y, startCellPosition.z);
+                        Cell startCell = grid.cells[randRow, randCol];
 
-                        // 2. Apply custom offsets based on your exact feedback
-                        float xOffset = 0f;
-                        float zOffset = 0f;
-                        float yOffset = 0.1f; // Default height slightly above grid
+                        float cellSpacing = Vector3.Distance(
+                            grid.cells[0, 0].transform.position,
+                            grid.cells[0, 1].transform.position
+                        );
 
-                        if (size == 5)
-                        {
-                            yOffset = 0.4f; 
-                            if (isHorizontal) 
-                            {
-                                xOffset = 1.4f; 
-                            }
-                            else 
-                            {
-                                zOffset = -1.8f; 
-                            }
-                        }
-                        else if (size == 4)
-                        {
-                            yOffset = 0.4f; 
-                            if (isHorizontal) 
-                            {
-                                xOffset = 1.1f; 
-                                zOffset = 0.2f; 
-                            }
-                            else 
-                            {
-                                zOffset = -1.2f; 
-                            }
-                        }
-                        else if (size == 3)
-                        {
-                            yOffset = 0.4f; 
-                            if (isHorizontal) 
-                            {
-                                xOffset = 0.8f; 
-                            }
-                            else 
-                            {
-                                zOffset = -0.9f; 
-                            }
-                        }
-                        else if (size == 2)
-                        {
-                           
-                            yOffset = 0.4f; 
-                            if (isHorizontal) xOffset = 0.3f;
-                            else zOffset = -0.5f;
-                        }
+                        Vector3 direction;
 
-                        spawnPosition.x += xOffset;
-                        spawnPosition.y += yOffset;
-                        spawnPosition.z += zOffset;
+                        if (isHorizontal)
+                            direction = startCell.transform.right;
+                        else
+                            direction = startCell.transform.forward;
 
-                        Quaternion spawnRotation = isHorizontal ? Quaternion.Euler(0, 90, 0) : Quaternion.identity;
-                        GameObject prefabToSpawn = shipPrefabs[size - 2]; 
+                        Vector3 offset = direction * ((size - 1) * cellSpacing * 0.5f);
 
-                        Object.Instantiate(prefabToSpawn, spawnPosition, spawnRotation, grid.cells[randRow, randCol].transform);
+                        Vector3 spawnPosition =
+                            startCell.transform.position +
+                            offset +
+                            Vector3.up * 0.01f;
+
+                        Quaternion spawnRotation =
+                            Quaternion.LookRotation(direction, Vector3.up);
+
+                        GameObject prefabToSpawn = shipPrefabs[size - 2];
+
+                        GameObject ship = Object.Instantiate(
+                            prefabToSpawn,
+                            spawnPosition,
+                            spawnRotation,
+                            grid.transform 
+                        );
+                    }
+
+                    Debug.Log("==== FLEET SUMMARY ====");
+                    foreach (Ship ship in fleet.GetShips())
+                    {
+                        Debug.Log(
+                            (isBot ? "[BOT]" : "[PLAYER]") +
+                            " Ship size: " + ship.size +
+                            " cells: " + ship.occupiedCells.Count
+                        );
                     }
                 
                     placed = true;
