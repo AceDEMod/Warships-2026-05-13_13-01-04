@@ -67,7 +67,6 @@ public class GameManager : MonoBehaviour
             Debug.Log("Cell already hit!");
             return;
         }
-        //
 
         botGrid.cells[row, col].onClick();
 
@@ -91,6 +90,7 @@ public class GameManager : MonoBehaviour
         if (hitShip != null)
         {
             hitShip.takeDamage();
+            clickedCell.rend.material.color = clickedCell.hitColor;
             Debug.Log("Hit! Ship health: " + hitShip.getHealth());
 
             if (hitShip.isShipSunk())

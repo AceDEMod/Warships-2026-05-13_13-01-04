@@ -29,7 +29,7 @@ void Awake()
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("====================== InputHandler Update called =====================");
+        // Debug.Log("====================== InputHandler Update called =====================");
 
         if (Input.GetMouseButtonDown(0))
         {
